@@ -1,0 +1,52 @@
+/*Animation*/
+.ContactList-item-enter {
+  transform: translateX(-100%);
+}
+.ContactList-item-enter-active {
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.ContactList-item-exit {
+  transform: translateX(0);
+}
+
+.ContactList-item-exit-active {
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}
+
+/*Basic styles*/
+.ContactList {
+  width: 400px;
+  margin: 0;
+}
+
+.ContactList-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContactList-text {
+  flex: 0 0 85%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+
+.ContactList-button {
+  margin: 0 4px;
+  background-color:  rgb(18, 90, 150);
+  border: 1px solid #1ebd65;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.ContactList-button:hover {
+  background-color: #2296b9;
+  cursor: pointer;
+}

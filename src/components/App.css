@@ -1,0 +1,24 @@
+/*Animation*/
+.fade-appear {
+  transform: translateX(-100%);
+}
+
+.fade-appear-active {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+
+/*Basic styles*/
+.wrapper {
+  display: block;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 40px;
+  color: rgb(18, 90, 150);
+}

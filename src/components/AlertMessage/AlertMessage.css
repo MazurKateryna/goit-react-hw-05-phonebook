@@ -1,0 +1,31 @@
+/* Animation */
+.alert-enter {
+  transform: translateX(100%);
+}
+.alert-enter-active {
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+.alert-exit {
+  transform: translateX(0);
+}
+.alert-exit-active {
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}
+
+/*Basic styles*/
+.alert {
+  margin: 20px 20px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(228, 97, 21);
+  border-radius: 6px;
+  padding: 10px 42px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
+}
+.alert-message {
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
