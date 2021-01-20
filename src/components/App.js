@@ -12,12 +12,13 @@ class App extends Component  {
   static propTypes = {
     contacts: PropTypes.array,
     filter: PropTypes.string,
+    alert: PropTypes.bool,
   }
   
   state = {
-    alert: false,
     contacts: [],
     filter: '',
+    alert: false,
   };
 
   componentDidMount() {
